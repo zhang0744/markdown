@@ -3,7 +3,7 @@
 配置文件位置 `~/.vimrc` 或 `/etc/vimrc`
 `"`号开头为注释
 ```
-set number      "显示行号
+set number       "显示行号
 "set relativenumber	"动态显示行号
 set cursorline  "光标所在行高亮
 set incsearch   "搜索时实时跳转
