@@ -12,6 +12,17 @@ git init 文件夹名
 git clone 仓库地址
 ```
 
+## pull 下载 合并远程代码到本地
+
+```shell
+git pull
+	   远程主机名  版 本:本地版本
+git pull [origin] [main:main]  //不指定本地版本默认为当前版本
+
+```
+
+
+
 ## add 添加文件到暂存区
 
 git add 命令可将该文件添加到暂存区。
@@ -85,6 +96,15 @@ $ git commit -am '直接提交修改'
 ```shell
 $ git config --global user.name '名字'
 $ git config --global user.email '邮箱'
+```
+
+## push 本地上传到远程并合并
+
+```shell
+git push
+
+git push [远程主机名] [本地分支名]:[远程分支名]
+不指定远程分支名 与本地分支名相同
 ```
 
 
