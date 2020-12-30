@@ -23,7 +23,7 @@ svn add *.php  //添加当前目录下的所有php文件
 
 ```shell
 svn commit -m "提交注释" [-N] [--no-unlock] PATH(如果选择了保持锁，就使用--no-unlock开关)
-svn commit -m "提交注释" [文件名] //不指定文件 提交所有修改过的文件
+svn commit -m "提交注释" [文件名] //不指定文件 提交当前目录所有修改过的文件
 简写: svn ci
 ```
 
